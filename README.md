@@ -1,1 +1,1 @@
-# Learning C Language 
+Starting to learn new programming language
