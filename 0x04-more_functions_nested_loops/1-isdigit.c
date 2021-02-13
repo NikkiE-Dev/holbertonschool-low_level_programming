@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _isupper - check the code for Holberton School students.
+ * _isdigit - do display a code if output is a digit
  *
  * @c: int type digit
  *
