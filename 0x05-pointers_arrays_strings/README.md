@@ -2,4 +2,4 @@
 
 ## Also learning about memory address
 
-Arrays are included too
+Arrays are included in this project
