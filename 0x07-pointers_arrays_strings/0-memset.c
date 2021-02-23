@@ -9,19 +9,15 @@
  */
 char *_memset(char *s, char b, unsigned int n)
 {
-	int x;
+	unsigned int x;
 
 	x = 0;
 
-	while (n > 0)
+	while (x < n)
 	{
 
 		*(s + x) = b;
 		x++;
-		{
-			if (x >= 95)
-				break;
-		}
 	}
 	return (s);
 }
