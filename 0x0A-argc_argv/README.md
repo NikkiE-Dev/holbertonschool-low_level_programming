@@ -1,0 +1,1 @@
+Learning about argc & argv and to write functions
