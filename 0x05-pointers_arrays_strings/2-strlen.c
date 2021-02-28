@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * _strlen - check legnth of string.
  * @s: Start of string
  * Return: values
  */
