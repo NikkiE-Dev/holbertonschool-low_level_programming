@@ -3,27 +3,27 @@
 #include <stdlib.h>
 
 /**
- * main - program that prints its name
+ * main - add all given digits
  * @argc: Calculated the amount of arguments
  * @argv: array
  * Return: Value
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
+	int x, s, sum = 0;
 
-	if (argc > 3)
+	for (x = 1; x < argc; x++)
 	{
-		printf("Error\n");
-		return (1);
+		for (s = 0; argv[x][s]; s++)
+		{
+			if (!(argv[x][s] >= '0' && argv[x][s] <= '9'))
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		sum += atoi(argv[x]);
 	}
-	if (argv[1] && argv[2])
-	{
-		printf("%d\n",  atoi(argv[1]) + atoi(argv[2]));
-	}
-	if (argc <= 1)
-	{
-		printf("0\n");
-	}
+	printf("%d\n", sum);
 	return (0);
 }
