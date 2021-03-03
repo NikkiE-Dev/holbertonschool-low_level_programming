@@ -43,11 +43,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	while (*src != 0)
+	while (*src != '\0')
 	{
 		*dest = *src;
 		dest++;
 		src++;
 	}
+	*dest = '\0';
 	return (len);
 }
