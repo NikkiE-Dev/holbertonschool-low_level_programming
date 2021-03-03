@@ -25,15 +25,16 @@ int _strlen(char *s)
  */
 char *_strdup(char *str)
 {
-	char *len = malloc(_strlen(str) + 1);
+	char *len;
 	char *src = str;
-	char *dest = len;
+	char *dest;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-
+	len = malloc(_strlen(str) + 1);
+	dest = len;
 	if (dest == NULL)
 	{
 		return (NULL);
