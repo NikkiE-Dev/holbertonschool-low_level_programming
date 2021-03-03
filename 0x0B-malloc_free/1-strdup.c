@@ -38,6 +38,11 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
+
+	if (src == NULL)
+	{
+		return (NULL);
+	}
 	while (*src != 0)
 	{
 		*dest = *src;
