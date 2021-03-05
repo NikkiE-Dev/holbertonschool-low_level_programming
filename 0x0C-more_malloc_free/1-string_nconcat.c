@@ -28,7 +28,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	result = malloc((a + b + 1) * sizeof(char));
 	if (result == NULL)
-		result = (NULL);
+		return (NULL);
 	for (c = 0; c < a; c++)
 	{
 		result[c] = s1[c];
