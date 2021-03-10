@@ -2,15 +2,12 @@
 
 /**
  * main - copy name of program compiled with
- *@argc: Integer
- *@argv: char
- * Return:Program name
+ *
+ * Return: 0
  */
 
-int main(int argc, char **argv)
+int main(void)
 {
-	(void)argc;
-	(void)argv;
 
 	printf(" %s\n", __FILE__);
 
