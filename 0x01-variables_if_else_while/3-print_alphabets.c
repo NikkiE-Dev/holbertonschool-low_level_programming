@@ -21,7 +21,7 @@ int main(void)
 
 	b = 65;
 
-	while (b < 90)
+	while (b < 91)
 	{
 		putchar(b);
 		b++;
