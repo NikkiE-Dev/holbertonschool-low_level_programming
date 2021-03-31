@@ -1,0 +1,1 @@
+Learning about creating, opening, writing and closing file with code.
