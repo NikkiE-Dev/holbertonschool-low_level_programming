@@ -21,6 +21,7 @@ void hash_table_delete(hash_table_t *ht)
 		{
 			release = new;
 			new = new->next;
+			free(release->key);
 			free(release->value);
 			free(release);
 		}
